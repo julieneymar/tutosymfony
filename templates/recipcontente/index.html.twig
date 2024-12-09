@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Tout les recettes {% endblock %}
+
+{%  block body %}
+
+ComeUp, c’est avant tout une communauté ! Rejoignez des centaines d’autres vendeurs sur notre serveur Discord. Échangez de bons conseils ou discutez de la pluie et du beau temps dans notre coworking virtuel.
+
+
+<ul> 
+    <li> 
+        <a href="{{url ('recipe.show', {id: 32, slug: 'pate-bologne'}) }}"> Pâtes bogolaise</a>
+    </li>
+ </ul>
+{% endblock %}
